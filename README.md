@@ -34,14 +34,14 @@ Follow these steps and create your project:
 
 Follow these steps and set up your project:
 
-- Select your project name (first blue item at the top left) in the Project Navigator (View > Navigators > Show Project Navigators) and set the Target to use Portrait-only deployment as you did in class.
-- Select Main.storyboard in your Project Navigator.
-- In Interface Builder, add a SpriteKit View to your main interface by dragging from the object library.
-- With the SKView selected, use the Tie-Fighter ("Add New Constraints") button at the bottom right of IB's editor window to constrain each edge flush to the parent. Set each inset to 0 and add 4 constraints.
-- Open the assistant editor by option-clicking ViewController.swift.
-- Control-drag from your SKView to the ViewController class and add a new outlet called skview.
-- Return to the standard single editor. (View > Standard Editor > Show Standard Editor)
-- Create a CustomScene.swift file. Set its contents:
+- <s>Select your project name (first blue item at the top left) in the Project Navigator (View > Navigators > Show Project Navigators) and set the Target to use Portrait-only deployment as you did in class.</s>
+- <s>Select Main.storyboard in your Project Navigator.</s>
+- <s>In Interface Builder, add a SpriteKit View to your main interface by dragging from the object library.</s>
+- <s>With the SKView selected, use the Tie-Fighter ("Add New Constraints") button at the bottom right of IB's editor window to constrain each edge flush to the parent. Set each inset to 0 and add 4 constraints.</s>
+- <s>Open the assistant editor by option-clicking ViewController.swift.</s>
+- <s>Control-drag from your SKView to the ViewController class and add a new outlet called skview.</s>
+- <s>Return to the standard single editor. (View > Standard Editor > Show Standard Editor)</s>
+- <s>Create a CustomScene.swift file. Set its contents:
 
 ```
 import UIKit
@@ -56,8 +56,8 @@ class CustomScene: SKScene {
     }
 }
 ```
-
-- Edit your view controller class code to match the following:
+</s>
+- <s>Edit your view controller class code to match the following:
 
 ```
 import UIKit
@@ -75,9 +75,9 @@ class ViewController: UIViewController {
     }
 }
 ```
-
+</s>
 ## Add Nodes
-
+<s>
 Shape nodes are simple to create and use. You'll create a simple circle node and add one for each touch. Add this code to your CustomScene's `touchesBegan` method:
 
 ```
@@ -86,7 +86,7 @@ Shape nodes are simple to create and use. You'll create a simple circle node and
         node.position = touch.location(in: self)
         addChild(node)
 ```
-
+</s>
 Test and run the app, making sure it works as expected (a red dot appears at each touch). Then at the command line, add, commit, and push your changes to your fork. If this does not work as expected, make sure you're working with a forked repository and _not_ with the original LambdaSchool repo. Make sure you use a meaningful commit message.
 
 Here's what your project should look like when run:
