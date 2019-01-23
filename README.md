@@ -87,13 +87,13 @@ Shape nodes are simple to create and use. You'll create a simple circle node and
         addChild(node)
 ```
 </s>
-Test and run the app, making sure it works as expected (a red dot appears at each touch). Then at the command line, add, commit, and push your changes to your fork. If this does not work as expected, make sure you're working with a forked repository and _not_ with the original LambdaSchool repo. Make sure you use a meaningful commit message.
+<s>Test and run the app, making sure it works as expected (a red dot appears at each touch). Then at the command line, add, commit, and push your changes to your fork. If this does not work as expected, make sure you're working with a forked repository and _not_ with the original LambdaSchool repo. Make sure you use a meaningful commit message.
 
 Here's what your project should look like when run:
 
 ![](Previews/Preview1.gif)
 
-
+</s>
 ## Stretch Problems
 
 After finishing your required elements, push your work further. These goals may or may not be things you learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals.
